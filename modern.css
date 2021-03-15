@@ -1,0 +1,31 @@
+.modern-style {
+    background: #EFEFEF;
+}
+.modern-style > .top-panel {
+    border-radius: 15px;
+    background: white;
+}
+.modern-style .numbers > p {
+    color: rgb(211, 211, 211);
+}
+.modern-style #current-number, .modern-style #current-sekund {
+    color: black;
+}
+.modern-style .central-button-container > button {
+    background-color: #dddddd;
+    color: black;
+}
+.modern-style .central-button-container > button:hover {
+    background-color: black;
+    color: white;
+}
+.modern-style td {
+    background: white;
+    border: 5px outset rgb(204, 204, 204);
+}
+.modern-style td:hover {
+    background: #e4e4e4;
+}
+.modern-empty-cell {
+    background: #b8b8b8;
+}

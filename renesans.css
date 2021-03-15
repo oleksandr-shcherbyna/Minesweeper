@@ -1,0 +1,32 @@
+.renesans-style {
+    background: rgb(136, 53, 38);
+}
+.renesans-style > .top-panel {
+    background: rgb(0, 0, 0);
+    border-radius: 0;
+}
+.renesans-style .numbers > p {
+    color: rgb(97, 97, 97);
+}
+.renesans-style #current-number, .renesans-style #current-sekund {
+    color: white;
+}
+.renesans-style .central-button-container > button {
+    background: rgb(172, 70, 52);
+    color: white;
+}
+.renesans-style .central-button-container > button:hover {
+    background: rgb(216, 122, 105);
+    color: rgb(0, 0, 0);
+}
+.renesans-style td {
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
+.renesans-style td:hover {
+    background: rgb(192, 192, 192);
+}
+.renesans-empty-cell {
+    background: rgb(136, 53, 38);
+}

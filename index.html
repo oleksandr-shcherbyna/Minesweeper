@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="modern.css" type="text/css">
+    <link rel="stylesheet" href="renesans.css" type="text/css">
+    <link rel="stylesheet" href="gothic.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/modern-mine-icon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/1036fa4b48.js" crossorigin="anonymous"></script>
+    <title>Minesweeper</title>
+</head>
+<body id="body">
+    <section>
+        <div class="btn-container">
+            <button class="btn-style active-style resize" data-id="modern">Modern</button>
+            <button class="btn-style resize" data-id="renesans">Renesans</button>
+            <button class="btn-style resize" data-id="gothic">Gothic</button>
+        </div>
+        
+        <div class="main-container modern-style">
+            <div class="top-panel">
+                <div class="mines-number-container">
+                    <div class="numbers">
+                        <p>888</p>
+                        <p id="current-number">10</p>
+                    </div>
+                    <div>
+                        <img src="img/modern-mine-icon.png" alt="mine-icon" data-id="mine" class="img-icon">
+                    </div>
+                </div>
+                
+                <div class="central-button-container">
+                    <button id="central-btn"><i class="fas fa-smile"></i></button> <!-- <i class="fas fa-redo"></i>  <i class="fas fa-thumbs-up"></i>-->
+                </div>
+
+                <div class="timer-container">
+                    <div>
+                        <img src="img/modern-timer-icon.png" alt="timer-icon" data-id="timer" class="img-icon">
+                    </div>
+                    <div class="numbers">
+                        <p>888</p>
+                        <p id="current-sekund">0</p>
+                    </div>
+                </div>
+            </div>
+                
+
+            <div class="cells"></div>
+        </div>
+
+        <div class="btn-container level-container">
+            <button class="btn-level active-level resize" data-id="easy">Easy</button>
+            <button class="btn-level resize" data-id="medium">Medium</button>
+            <button class="btn-level resize" data-id="hard">Hard</button>
+        </div>
+    </section>
+    
+    <div id="license" data-id="license">
+        <div>
+            <p>Designed and Coded By</p>
+            <p id="name">Oleksandr Shcherbyna</p>
+            <img src="img/myPhoto.png" alt="myPhoto">
+        </div>
+        <button id="license-close" class="closing-btns" value="license"><i class="fas fa-times"></i></button>
+    </div>
+    <div id="rules" data-id="rules">
+        <div>
+            <p id="title">INSTRUCTION</p>
+            <p>Three style variations are able for choosing: <span>Modern, Renesans, Gothic</span>. Click on one of them to change the game's appearance.</p>
+            <p>The top left corner is showing the number of mines in the current game difficulty. When you start a new round there is a stopwatch in the top right corner. In the middle of the top panel, there is a restart button. To start a new game press this button with your mouse or press <span>"R"</span> with your keyboard.</p>
+            <p>There are three game difficulties: <span>Easy, Medium, Hard</span>. Click on one of them to choose an appropriate difficulty. </p>
+        </div>
+        <button id="rules-close" class="closing-btns" value="rules"><i class="fas fa-times"></i></button>
+    </div>
+    
+    <button id="license-btn" class="info-btns" value="license"><i class="fas fa-id-badge"></i></button>
+    <button id="rules-btn" class="info-btns" value="rules"><i class="fas fa-question-circle"></i></button>
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
